@@ -1,8 +1,10 @@
 language: csharp
 mono: none
-dotnet: 2.1.502
+dotnet: 3.1
+install:
+  - dotnet restore
 script:
- - dotnet restore
+  - dotnet build
 
 notifications:
   slack: waytoleadworkspace:2ats0xP6kL6QF8U2bpqkFDT1
