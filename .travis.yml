@@ -3,3 +3,6 @@ mono: none
 dotnet: 2.1.502
 script:
  - dotnet restore
+
+notifications:
+  slack: waytoleadworkspace:2ats0xP6kL6QF8U2bpqkFDT1
